@@ -29,7 +29,7 @@ function List({ todo, setTodos, todos }) {
       <p className={todo.completed ? "completed" : "normal"}>{todo.text}</p>
       <div className="separate">
         <div
-          className={isCompleted ? "completed-checkbox" : "checkbox"}
+          className={todo.completed ? "completed-checkbox" : "checkbox"}
           onClick={completeHandler}
           id={todo.id}
         >
