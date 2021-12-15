@@ -1,0 +1,14 @@
+.ul-container {
+  width: 80%;
+}
+
+.ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
