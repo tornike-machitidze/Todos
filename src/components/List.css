@@ -80,12 +80,4 @@ button:active {
   li {
     width: 100%;
   }
-
-  .separate {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-  }
 }
